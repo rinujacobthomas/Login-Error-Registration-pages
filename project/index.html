@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        background-image: url(sc.jpg);
+        background-repeat: no-repeat;
+    }
+    #txtlogin
+    {
+        padding-top: 1em;
+       
+    }
+    #lbllogin
+    {
+        padding-top: .5em;
+        visibility: hidden;
+        color: red;
+    }
+    #logincenter
+    {
+        margin-top: 13em;
+        align-content:center;
+    }
+    .txtbox
+    {
+        width: 17em;
+        height: 2.5em;
+        border-radius: 8px;
+        border: none;
+        text-align: center;
+    }
+    ::placeholder
+    {
+        text-align: center;
+        font-size: larger;
+    }
+    #submt
+    {
+        width: 7em;
+        height: 2.4em;
+        border-radius: 8px;
+        border: none;
+        background-image: linear-gradient(#ff3385,#6666ff);
+        color: white;
+        font-weight: 900;
+        
+    }
+   #loglinks
+   {
+       margin-top: 1.2em;
+       font-weight: 600;
+       
+   }
+   #forgot
+   {
+    margin-left: 1.5em;
+    color: white;
+   }
+   #new
+   {
+       margin-left: .5em;
+       color: white;
+   }
+   a
+   {
+       text-decoration: none;
+   }
+   #submt:hover
+   {
+    border: 1px solid white;
+   }
+</style>
+<body style="height: 30em;">
+    <form action="">
+    <div id="logincenter">
+        <center>
+            <h3 style="color: white;">Welcome Back</h3>
+            <div id="txtlogin"><input  class="txtbox" type="text" name="" value="" placeholder="&nbsp;&nbsp;Username" required="required"></div>
+            <div id="lbllogin">Username Required</div>
+            <div id="txtlogin"><input id="" class="txtbox" type="password" name="" value="" placeholder="&nbsp;&nbsp;Password" required="required"></div>
+            <div id="lbllogin">Type Valid Password</div>
+            <div><button id="submt" type="submit">Login Now</button></div>
+            <div id="loglinks"><a id="new" href="">New Member ?</a><a id="forgot" href="">Forgot Password</a></div>
+        </center> 
+    </div>
+</form>
+</body>
+</html>

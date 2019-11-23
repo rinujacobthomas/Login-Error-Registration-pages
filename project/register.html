@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<style>
+body
+{
+  background: linear-gradient(80deg, blue, #ff3385);
+
+}
+#mem
+{
+    margin-top: 1em;
+    border: 1px solid white;
+    width: 39.5em;
+    height: 10em;
+    border-radius: 10px;
+    padding:1em;
+}
+#des,#log
+{
+    margin-top: 1em;
+    border: 1px solid white;
+    padding: 1em;
+    border-radius: 10px;
+}
+.text
+{
+    width: 15em;
+    height: 2.1em;
+    border-radius: 6px;
+    border: none;
+}
+::placeholder
+{
+text-align: center;
+}
+label
+{
+    color: white;
+}
+.chkbx
+{
+    height: 2.1em;
+
+    border: none;
+    border-radius: 5px;
+}
+#qsttxt
+{
+    margin-left: 9.7em;
+    margin-top: 1em;
+}
+</style>
+<body>
+    <form action="">
+        <div class="container">
+            <div class="row">
+                    <div id="des" class="col-sm-0 col-md-6 col-lg-6" style="color: white; height: 40.3em;" >
+                        <div style="font-size: 30px;color: white;font-weight: 600;text-align: center;margin-top: 3em;">Member Portal</div>
+                        <div style="margin-top: 3em;" ><p> It is a portal which can be used anywhere for any purpose.If you're visiting this page, you're likely here because you're searching for 
+                            a random sentence. Sometimes a random word just isn't enough, and that is where the random sentence generator comes into play. By inputting 
+                            the desired number, you can make a list of as many random sentences as you want or need. Producing random sentences can be helpful in a number of different ways.</p>
+                            <p> For writers, a random sentence can help them get their creative juices flowing. 
+                                Since the topic of the sentence is completely unknown, it forces the writer to be creative when the
+                                 sentence appears. There are a number of different ways a writer can use the random sentence for creativity.
+                                  The most common way to use the sentence is to begin a story. Another option is to include it somewhere in the story.
+                                   A much more difficult challenge is to use it to end a story. In any of these cases, it forces the writer to think
+                                    creatively since they have no idea what sentence will appear from the tool.</p></div>
+                    </div>
+                    <div class="col-sm-0 col-md-6 col-lg-6">
+                        <div id="mem">
+                            <label>Member Information</label>
+                             <div><input class="text" type="text" placeholder="First Name"> <input style="margin-left: 1em;" class="text" type="text" placeholder="Last Name"></div>   
+                                <div style="margin-top: 1em;"><input class="text" type="text" placeholder="Date of Birth"></div>
+                        </div>
+                        <div id="log">
+                                <label >Log-In Information</label>
+                                <div><input class="text" type="text" placeholder="User Name"></div>
+                               <div style="margin-top: 1em;"><input class="text" type="password" placeholder="Password"></div> 
+                               <div style="margin-top: 1.5em;"><label>Security Question 1:  </label><select class="chkbx" name="" id="">
+                                   <option value="">What was your first pet's name?</option>
+                                   <option value="">What's the name of the city where your parents meet first?</option>
+                                   <option value="">What was your childhood nickname?</option>
+                                   <option value="">What was your  nickname?</option>
+                               </select></div>
+                               <div><input id="qsttxt" class="text" type="text" placeholder="Answer"></div>
+                               <div style="margin-top: 1.5em;"><label>Security Question 2:  </label><select class="chkbx" name="" id="">
+                                    <option value="">What was your first pet's name?</option>
+                                    <option value="">What's the name of the city where your parents meet first?</option>
+                                    <option value="">What was your childhood nickname?</option>
+                                    <option value="">What was your childhood nickname?</option>
+                                </select></div>
+                                <div><input id="qsttxt" class="text" type="text" placeholder="Answer"></div>
+                                <div style="margin-top: 1.5em;"><label>Security Question 3:  </label><select class="chkbx" name="" id="">
+                                        <option value="">What was your first pet's name?</option>
+                                        <option value="">What's the name of the city where your parents meet first?</option>
+                                        <option value="">What was your childhood nickname?</option>
+                                        <option value="">What was your childhood nickname?</option>
+                                    </select></div>
+                                    <div><input id="qsttxt" class="text" type="text" placeholder="Answer"></div>
+                        </div>
+                        
+                        
+
+                        </div>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
